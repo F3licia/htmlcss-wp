@@ -3,33 +3,56 @@
     border:1px solid black;
     margin: auto;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-body div{
-    margin-top: 2%;
+wrapper div{
+    margin-bottom: 2%;
     width: 80%;
 }
 
 .header {
-    height: 100px;
-    
-    background-color: ; 
+    height: 80px; 
 }
+
+
+.header img{
+max-height:80px;
+vertical-align: middle;
+}
+
+
+.nav-bar li,a{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    color:gray;
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
 
 .first-container {
     height: 600px;
-    
-    background-color: ;
 }
 
 .sec-container {
-    height: 600px;
-  
-    background-color: ;
-    
-    
+    height: 600px; 
 }
+
+
   .sec-container.clearfix::after {
       content: "";
       display: table;
