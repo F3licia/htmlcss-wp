@@ -1,39 +1,49 @@
 *{
     padding: 0px;
-    border:1px solid black;
     margin: auto;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif
 }
 
-/*stili carattere-----------*/
+/*stili carattere---------------------*/
 
-section-title {
-
-
+.section-title {
+    font-size: 45px;
+    font-weight: bold;
 }
 
-
-subtitle {
-
-
+.subtitle {
+    color: gray;
+    font-weight: lighter;
 }
 
-art-title {
-
-
+.art-title {
+    padding-bottom: 10px;
+    font-weight: normal;
 }
 
-/*---------------------------*/
+p {
+    color: gray;
+    font-weight: lighter;
+}
+
+.first-container>h3{
+    font-weight: lighter;
+}
+
+.heart {color: red;}
+
+/*---------------------------------------*/
 
 
-
-wrapper div{
-    margin-bottom: 2%;
+body div{
+    margin-bottom: 3%;
     width: 80%;
 }
 
+
 .header {
+    color:white;
     height: 80px; 
 }
 
@@ -41,14 +51,18 @@ wrapper div{
 .header img{
 max-height:80px;
 vertical-align: middle;
+padding-right: 20px;
+border-right: 1px solid lightgray;
 }
 
 
 .nav-bar li,a{
+    text-transform: uppercase;
     list-style-type: none;
     display: inline-block;
     text-decoration: none;
     color:gray;
+    padding-left: 5px;
 }
 
 
@@ -58,18 +72,18 @@ vertical-align: middle;
     padding: 300px 600px 0px 30px;
     background-image: url("img/banner.jpg");
   
-    background-color: #000; 
+    background-color: black; 
     background-position: center; 
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-repeat: no-repeat; 
     background-size: cover;
+    border:1px solid lightgray;
+    border-radius: 20px;
 }
-
 
 
 .sec-container {
-    height: 600px; 
+     height: 650px; 
 }
-
 
   .sec-container.clearfix::after {
       content: "";
@@ -77,13 +91,9 @@ vertical-align: middle;
       clear:both ;
   }
 
-  .article { ;
-    padding:0px;
-    border:1px solid black;
-  }
-     
+  
   #row.article {
-    height: 60px;
+    height: 90px;
     width: 100%;
 }
 
@@ -108,20 +118,23 @@ vertical-align: middle;
     float:left;
 }
 
-  #footer {
-    text-align: center;
-    height: 70px;
-    width: 80%;
+#footer {
+  height: 50px;
+  font-size: 18px;
+  text-align: center;;
 }
 
-/*stili immagini------------*/
+
+
+/*stili immagini-------------------------*/
 
 .img{
     width: 100%;
     height: 200px;
     padding: 0%;
-    border:1px solid black;
-    margin-bottom:10px;
+    border:1px solid lightgray;
+    border-radius: 20px;
+    margin-bottom:30px;
   
 }
 
@@ -145,4 +158,4 @@ vertical-align: middle;
     background-size: cover;
 }
 
-/*---------------------------*/
+/*-----------------------------*/
