@@ -63,6 +63,12 @@ border-right: 1px solid lightgray;
 }
 
 
+.first-container .overlay .text-box{
+    margin:0;
+    padding: 250px 50px 20px 30px;
+    height: 500px;
+    width:500px;
+}
 
 .first-container {
     color: white;
@@ -74,13 +80,11 @@ border-right: 1px solid lightgray;
     background-size: cover;
     border-radius: 20px;
     position:relative;
-   
 }
 
-
-
 .sec-container {
-     height: 650px; 
+     height: 650px;
+     overflow: hidden;
 }
 
   .sec-container.clearfix::after {
@@ -95,13 +99,13 @@ border-right: 1px solid lightgray;
     width: 100%;
 }
 
-  #column1{
+  .column1{
      width: 19%;
      height: 500px;
      float:left;  
 }
 
-   #column2 {
+   .column2 {
     width: 60%;
     height: 500px;
     margin-left: 1%;
@@ -109,17 +113,17 @@ border-right: 1px solid lightgray;
     float:left;
 }
 
-#column3 {
+.column3 {
     width: 19%;
     height: 500px;
     float:left;
 }
 
 
-#footer {
+.footer {
   height: 50px;
   font-size: 18px;
-  text-align: center;;
+  text-align: center;
 }
 
 
@@ -135,10 +139,6 @@ border-right: 1px solid lightgray;
     left: 0;
     z-index: 0;
 }
-.first-container>.overlay{
-    padding: 300px 600px 0px 30px;
-}
-
 
 
 .img{
@@ -151,20 +151,20 @@ border-right: 1px solid lightgray;
 }
 
 
-#column1>.img{
+.column1>.img{
     background-image: url("img/img-1.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size:cover ;
 }
 
-#column2>.img{
+.column2>.img{
     background-image: url("img/banner-2.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
 }
-#column3>.img{
+.column3>.img{
     background-image: url("img/img-3.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
